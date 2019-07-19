@@ -1,0 +1,37 @@
+<html>
+
+<head>
+  <title> My first webpage</title>
+  <style>
+      #rush {
+          color: red;
+      }
+
+      h3 {
+          margin-top: 200px;
+      }
+  </style>
+</head>
+
+<body>
+  <h1> Rush is the best band!</h1>
+  <h2> No discussion! </h2>
+  <img src="https://consequenceofsound.net/wp-content/uploads/2019/03/Rush.png" />
+  <a id="rush" href="https://rush.com"> Rush's website</a>
+  <a href="http://jeffca.me"> Jeff's website</a>
+  <h3>Just kidding. Here are some actually good bands:</h3>
+  <ul>
+      <li>BORNS</li>
+      <li>Sublime</li>
+      <li>Daft Punk</li>
+  </ul>
+  <script>
+      var usersChoice = window.confirm('Do you want to see my website?');
+
+      if (!usersChoice) {
+        location.href = 'https://google.com';
+      }
+  </script>
+</body>
+
+</html>
